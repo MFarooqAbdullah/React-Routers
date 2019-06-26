@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { NotFound } from "./notFound";
 const Routes = () => {
     return <div>
-        <Link to="/">Homepage</Link> {/*...etc*/}
+        {/* <Link to="/">Homepage</Link> ...etc */}
         <Switch>
             <Route exact path="/" component={Homepage} />
             <Route path="/dog" component={Dog} />

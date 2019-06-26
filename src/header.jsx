@@ -16,19 +16,14 @@ class header extends Component {
                     <ul className="nav navbar-nav">
                         <li className="active"><Link to="/">home</Link></li>
                         <li className="dropdown">
-                            <Link className="dropdown-toggle" data-toggle="dropdown" to="/cat">CAT
-                            <span className="caret"></span></Link>
-                            <ul className="dropdown-menu">
-                                <li><a href="/">Page 1-1</a></li>
-                                <li><a href="/">Page 1-2</a></li>
-                                <li><a href="/">Page 1-3</a></li>
-                            </ul>
+                            <Link className="dropdown-toggle" to="/cat">CAT
+                            </Link>
                         </li>
-                        <li><a href="/">Page 2</a></li>
+                        <li><Link to="/dog">Dog</Link></li>
                     </ul>
                     <ul className="nav navbar-nav navbar-right">
-                        <li><a href="/"><span className="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                        <li><a href="/"><span className="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li><Link to="/signup"><span className="glyphicon glyphicon-user"></span> Sign Up</Link></li>
+                        <li><Link to="/login"><span className="glyphicon glyphicon-log-in"></span> Login</Link></li>
                     </ul>
                 </div>
             </nav>
